@@ -2,8 +2,8 @@ const genera = document.getElementById("Genera");
 
 genera.addEventListener('click', function () {
     if (controllo == true) {
-        const randomPlayer = Math.floor(Math.random() * 6) + 1;
-        const randomComputer = Math.floor(Math.random() * 6) + 1;
+        const randomPlayer = Math.floor(Math.random() * 6 + 1);
+        const randomComputer = Math.floor(Math.random() * 6 + 1);
         const punteggioPlayer = document.getElementById("PunteggioP");
         const punteggioComputer = document.getElementById("PunteggioC");
         const risultato = document.getElementById("Risultato");
