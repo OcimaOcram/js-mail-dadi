@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: aqua;
+}
+.lp-container{
+    width: 1200px;
+    height: 400px;
+}
+.c-acqua{
+    color: aqua;    
+}
+.c-green{
+    color: lightgreen;    
+}
+.c-grey{
+    color: lightslategray;    
+}
+.c-red{
+    color: red;    
+}
+a{
+    cursor: pointer;
+}
